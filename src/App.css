@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-shake 0.42s ease-in-out 0s infinite alternate;
+  }
+}
+
+.App-header {
+  background-color: #BBBFCA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-shake {
+  from {
+    transform: rotate(-0.5deg) scale(0.98);
+  }
+  to {
+    transform: rotate(0.5deg);
+  }
+}
