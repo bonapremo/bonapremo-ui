@@ -13,8 +13,8 @@
 
 .path {
     stroke-dasharray: 1;
-    stroke-dashoffset: 1;
-    animation: dash 15s linear 0s 1 normal;
+    stroke-dashoffset: 0;
+    animation: dash 10s linear 0s 1 normal;
 }
 
 @keyframes dash {
